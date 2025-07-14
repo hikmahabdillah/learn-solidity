@@ -1,21 +1,21 @@
 {
 	"compiler": {
-		"version": "0.8.3+commit.8d00100c"
+		"version": "0.8.30+commit.73712a01"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getEnumData",
+				"name": "getCallerAddress",
 				"outputs": [
 					{
-						"internalType": "enum MyEnum.Jobs",
+						"internalType": "address",
 						"name": "",
-						"type": "uint8"
+						"type": "address"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -32,9 +32,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/VariableTypes.sol": "MyEnum"
+			"contracts/AdressContract.sol": "AddressContract"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "prague",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -46,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/VariableTypes.sol": {
-			"keccak256": "0xea51655fb7c28f3458bfcac1507ca74008894532aec9813b459c4a3ff169bf34",
+		"contracts/AdressContract.sol": {
+			"keccak256": "0x79895cb7c1c833b6650c09a04ab1522978157c703c106ad5d1e4c8dae511c115",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://28e922b32aa8073a98445f6235b45065f21481df6c56f59ea9a2b55b486b0916",
-				"dweb:/ipfs/QmVbckkAVNFP7GQGqZ35n2fx9FpELPDrg7w437F2hBCqoi"
+				"bzz-raw://92cb23eb1d60a959d11d56485a5a144855cca527900d105074023f1ad8ff17e0",
+				"dweb:/ipfs/QmNzHqUAnRAc4nfA4qxvTN37jmnboYJWUp71tCrVGgviXm"
 			]
 		}
 	},

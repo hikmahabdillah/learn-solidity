@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity >=0.6.0 <0.8.4; // versi 0.6.0 ke atas sampai 0.8.3 
+pragma solidity >=0.6.0 <0.9.0; // versi 0.6.0 ke atas
 
 contract BasicSyntaxContract {
     uint storedData; 
