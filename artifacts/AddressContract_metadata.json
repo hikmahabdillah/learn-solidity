@@ -17,6 +17,55 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "receivedEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_address",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "nominal",
+						"type": "uint256"
+					}
+				],
+				"name": "sendFund",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_address",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "nominal",
+						"type": "uint256"
+					}
+				],
+				"name": "transferFund",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -47,11 +96,11 @@
 	},
 	"sources": {
 		"contracts/AdressContract.sol": {
-			"keccak256": "0x79895cb7c1c833b6650c09a04ab1522978157c703c106ad5d1e4c8dae511c115",
+			"keccak256": "0xeae327f68f151b98da5138683e9d3cc802517cc29686b17a2a86d70b28c1e89f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://92cb23eb1d60a959d11d56485a5a144855cca527900d105074023f1ad8ff17e0",
-				"dweb:/ipfs/QmNzHqUAnRAc4nfA4qxvTN37jmnboYJWUp71tCrVGgviXm"
+				"bzz-raw://aa9a2881a4cf23c6453ddc4234a693213693b20b174f633b7c1d24d930845392",
+				"dweb:/ipfs/QmSTicwxxRgMzLgQvuWPk5oqt4CcsV2FmGtVLzEqjrrkuM"
 			]
 		}
 	},

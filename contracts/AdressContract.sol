@@ -31,4 +31,23 @@ contract AddressContract{
         address myAddress = address(this);
         return myAddress;
     }
+
+// PAYABLE ADDRESS
+// address yang bisa digunakan untuk transaksi 
+    // function untuk menerima saldo ether
+    uint receivedAmount;
+
+    function receivedEther() payable public{
+        receivedAmount = msg.value;
+    }
+
+    // address payable 
+    function transferFund(address payable _address, uint nominal) public{
+        _address.transfer(nominal); // akan mencari tahu aaddress yang akan ditransfer dengan nominal yang dibutuhkan
+    }
+
+    // menghindari kesalahan misal saldonya kurang dsb
+    function sendFund(address payable _address, uint nominal) public returns(bool){
+        _address.send(nominal);
+    }
 }
