@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getDataArray",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ArrayContract.sol": "ArrayContract"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ArrayContract.sol": {
+			"keccak256": "0xee1d275a5826f061c48c55bc284833909ac1fdb17467037183506404bc5af875",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e16d7e0f6706bc414b6a6fcfa3e68e72a0d66ca4b1d1c62796a4ae22b30c866e",
+				"dweb:/ipfs/QmUBxAAwDYiiz63GhLcHbTmT8V6RqgCkMLMHkF9hhRxCGb"
+			]
+		}
+	},
+	"version": 1
+}
