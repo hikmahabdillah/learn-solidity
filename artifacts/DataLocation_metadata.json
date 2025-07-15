@@ -6,29 +6,27 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "get",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "x",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
 						"type": "uint256"
 					}
 				],
-				"name": "set",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "calculation",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "result",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -45,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/BasicSyntaxContract.sol": "BasicSyntaxContract"
+			"contracts/Location.sol": "DataLocation"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -59,12 +57,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/BasicSyntaxContract.sol": {
-			"keccak256": "0x9cfb3490fa2c814f267662086823e0de8544532c96d60dea11ec976a94a830d0",
+		"contracts/Location.sol": {
+			"keccak256": "0x2b48809b1df2c44667effa779f60e170dd23e7ebd98d9f918b4292918b210dee",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d3b8718299f12a6fa6022645d761db38f6c955a2d15c11d38ac6e7573b829a3e",
-				"dweb:/ipfs/QmNzDaaP84kd9JSqiQCr72JyrWXn61CXFJnkpmgrsr9JFs"
+				"bzz-raw://c9d54a6322221fb5f465442946c6876effd4aad81aa71046b3792decf4a229f8",
+				"dweb:/ipfs/QmQGBTBvKhJjrvniXHk2ESXo4aPLjH7Jpue2FmuBLCmB1S"
 			]
 		}
 	},
