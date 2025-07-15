@@ -7,7 +7,20 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getDataArray",
+				"name": "arrayExample",
+				"outputs": [
+					{
+						"internalType": "uint256[7]",
+						"name": "",
+						"type": "uint256[7]"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getArrayLength",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -15,7 +28,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -32,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ArrayContract.sol": "ArrayContract"
+			"contracts/ArrayContract.sol": "ArrayLength"
 		},
 		"evmVersion": "prague",
 		"libraries": {},

@@ -34,3 +34,17 @@ contract DynamicArray{
         return (newData);
     }
 }
+
+contract ArrayLength{
+    uint[7] data;
+
+    function arrayExample() public payable returns(uint[7] memory){
+        data = [uint(10),20,30,40,50,60,70];
+
+        return data;
+    }
+
+    function getArrayLength()public view returns(uint){
+        return (data.length);
+    }
+}
