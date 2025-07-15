@@ -12,26 +12,14 @@ pragma solidity >=0.6.0 <0.9.0; // versi 0.6.0 ke atas
 // calldata(tidak bisa dimodifikasi dan sifatnya constant, lokasi default parameter)
 // stack(data yang tidak persistent yang dikelola oleh vm ethereum langsung, untuk membuat variable selama adanya eksekusi)
 
-contract DataLocation{
-    // storage
-    uint stateStorage;
+contract Locations{
+    uint stateVar = 11; //storagr
 
-// tersimpan di memory(sementara)
-    function calculation(uint a, uint b) public pure returns(uint result){
-        return a + b;
+    function thisFunction() public returns(uint){
+        uint localVar = 20; // memory
+        stateVar = localVar;
+        localVar = 44;
+
+        return stateVar;
     }
 }
-
-contract Location{
-    // storage
-    bool isReady;
-
-    function thisFunction() public pure {
-        // values (local variable) di memory
-        bool isOkay;
-        uint num;
-        address account;
-    }
-
-}
-

@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "thisFunction",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Location.sol": "Locations"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Location.sol": {
+			"keccak256": "0x3c2f6cb0b97f7451a7e7cadba7e2d79d61e5d3cbf55013ff80c316327aa0aaab",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://045d2973cb359e4565dcb5d82859909409e571145cbec424b789b252e1fc57d9",
+				"dweb:/ipfs/QmeoRx87arh8sJXKWhkZwZmqfNvpx7Q62LdKpbD51aJpr7"
+			]
+		}
+	},
+	"version": 1
+}
