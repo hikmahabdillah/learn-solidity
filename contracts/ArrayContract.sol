@@ -15,12 +15,22 @@ contract ArrayContract{
 
 contract DynamicArray{
     // inline and keyword new
-
     uint[] data;
 
-    function getNewData() public returns(uint[] memory){
+    uint[] newData;
+
+    function getData() public returns(uint[] memory){
         data = [40,50,60,70]; // inline
 
         return data;
+    }
+
+    function getNewData() public returns(uint[] memory){
+        newData = new uint[](3);// mengisi nilai array 
+        newData[0] = 129;
+        newData[1] = 111; 
+        newData[2] = 111; 
+
+        return (newData);
     }
 }

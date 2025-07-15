@@ -7,6 +7,19 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "getData",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getNewData",
 				"outputs": [
 					{
@@ -47,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/ArrayContract.sol": {
-			"keccak256": "0xf86381ff02b1fc924d743c8167d9d8391e105b336aed549bb34aefb4a99ff106",
+			"keccak256": "0xf1231dd1bcb3beedba2506845370500dbef77f8ee2b8ec732fdfd6161b1f3975",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e7dc3aaf25572de5d54a2de2a8fca3d655eb8102224de20154ca2700db9fbcae",
-				"dweb:/ipfs/Qmaog9BzvfQkUgVeQFMtnY6qzDtuWhyQc3ivfLB9BWJbgy"
+				"bzz-raw://497574f9d92a6936a41d45a7d3651881f1df0199da3df7445e5c2d2bc31c8895",
+				"dweb:/ipfs/Qmd6EXsNtC1pZTtUs9KgS3uni6opRYRcVKMeihZosNsjrd"
 			]
 		}
 	},
