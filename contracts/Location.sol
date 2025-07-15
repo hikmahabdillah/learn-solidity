@@ -23,6 +23,7 @@ contract Locations{
     //     return localVar;
     // }
 
+// reference type
     function thisFunction() public pure returns(uint[] memory, uint[] memory){
         // menyediakan array sepanjang 3 data
         uint[] memory localMemory1 = new uint[](3); //jika menggunakan reference type, mendefinisikan memory secara eksplisit 
@@ -37,4 +38,16 @@ contract Locations{
         // 33,22,23
         return(localMemory1, localMemory2);
     }
+
+// values type
+    function valuesFunction() public pure returns (uint){
+        uint localVar = 11;
+        uint localVar2 = 22;
+
+        localVar2 = localVar;
+        localVar = 40;
+
+        return localVar2;
+    }
+
 }

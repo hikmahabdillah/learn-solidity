@@ -22,6 +22,19 @@
 				],
 				"stateMutability": "pure",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "valuesFunction",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -52,11 +65,11 @@
 	},
 	"sources": {
 		"contracts/Location.sol": {
-			"keccak256": "0x4a79b52617d196b91be7625b6dd98b153ef3e471f644181c99c1ae67efe759b5",
+			"keccak256": "0x371a116097de613dcec0719a1a0d8b5957809088dabd50a67cb2b0804f3d8353",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b56481b983669983b72a5ce3226c9eda0a980d8576287ac900a49d93e1920fa1",
-				"dweb:/ipfs/QmcD5cAoTWXZVrLGcL6F3tQMCjFrde5DaJ6iMLSv2AP2rN"
+				"bzz-raw://99363b23df04bbd6b73ca2d31fcc37e68669d7c3659e6180a695a1c9e18c53a8",
+				"dweb:/ipfs/QmeUxnpGbdZ4QDHZYqJmUexvcrJXTWGrY7qfMWVq1m11RM"
 			]
 		}
 	},
