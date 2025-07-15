@@ -10,12 +10,17 @@
 				"name": "thisFunction",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "uint256[]",
 						"name": "",
-						"type": "uint256"
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -47,11 +52,11 @@
 	},
 	"sources": {
 		"contracts/Location.sol": {
-			"keccak256": "0x53e3e46befed00d05e8f09e77b66f2045e41edb61feebeeda7dfa166aea4f2eb",
+			"keccak256": "0x4a79b52617d196b91be7625b6dd98b153ef3e471f644181c99c1ae67efe759b5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7e8e0b07940e9f7b9d954fe42fa61ff9e04602cc4ab3c9344e959588bc3ecd14",
-				"dweb:/ipfs/Qmcpzuao62MomUqgpTZPoyuZ6y2oetBE6Vu1L24BHHhS6c"
+				"bzz-raw://b56481b983669983b72a5ce3226c9eda0a980d8576287ac900a49d93e1920fa1",
+				"dweb:/ipfs/QmcD5cAoTWXZVrLGcL6F3tQMCjFrde5DaJ6iMLSv2AP2rN"
 			]
 		}
 	},
