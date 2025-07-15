@@ -17,9 +17,9 @@ contract Locations{
 
     function thisFunction() public returns(uint){
         uint localVar = 20; // memory
-        stateVar = localVar;
-        localVar = 44;
+        localVar = stateVar;
+        stateVar = 44;
 
-        return stateVar;
+        return localVar;
     }
 }
