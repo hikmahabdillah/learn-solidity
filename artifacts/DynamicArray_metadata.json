@@ -7,12 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getDataArray",
+				"name": "getNewData",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "uint256[]",
 						"name": "",
-						"type": "uint256"
+						"type": "uint256[]"
 					}
 				],
 				"stateMutability": "nonpayable",
@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ArrayContract.sol": "ArrayContract"
+			"contracts/ArrayContract.sol": "DynamicArray"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
