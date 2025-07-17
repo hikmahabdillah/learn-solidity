@@ -59,8 +59,111 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "person3",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "nama",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "jenis_kelamin",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "umur",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "isMarriage",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "personInfo",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "nama",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "jenis_kelamin",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "umur",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bool",
+								"name": "isMarriage",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct Structs.Person",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "setPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "nama",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "jenis_kelamin",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "umur",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "isMarriage",
+						"type": "bool"
+					}
+				],
+				"name": "setPerson3",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -94,11 +197,11 @@
 	},
 	"sources": {
 		"contracts/Struct.sol": {
-			"keccak256": "0xdfe2ae0002b267d3d447aa815df7a8ca8262893e2d6d45a3787a3d892ca92af7",
+			"keccak256": "0xaf4922341d0bc3229400afb341d2a96b363bc110cf3133baa5f47b8bbc446136",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a13bda1259d21e114bff4c31ddb8d56bb236c3e63812e940a23cc55ffa5b5a93",
-				"dweb:/ipfs/QmWigV2Gj58YyKae2zxhYh2SMvUiduKddAmEj5VaMt3LSe"
+				"bzz-raw://7776361c2f788f3d07b7090f1a4d5017d4fe68784dee0b4579d4daf58a6067d9",
+				"dweb:/ipfs/QmQa5fC5UgzNng7BkK9vbqVg6KAVZ3fXPpVtT4fn8ahYwg"
 			]
 		}
 	},

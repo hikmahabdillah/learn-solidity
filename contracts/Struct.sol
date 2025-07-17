@@ -28,5 +28,13 @@ contract Structs{
         return(person2.nama, person2.jenis_kelamin);
     }
 
-    
+    Person[] public person3;
+
+    function setPerson3(string memory nama, string memory jenis_kelamin, uint umur, bool isMarriage) public {
+        person3.push(Person(nama, jenis_kelamin, umur, isMarriage));
+    }
+
+    function personInfo(uint _index)public view returns(Person memory){
+        return(person3[_index]);
+    }
 }
