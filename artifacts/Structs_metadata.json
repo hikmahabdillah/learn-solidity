@@ -1,0 +1,106 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getPerson",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "nama",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "jenis_kelamin",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "umur",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bool",
+								"name": "isMarriage",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct Structs.Person",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getPerson2",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Struct.sol": "Structs"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Struct.sol": {
+			"keccak256": "0xdfe2ae0002b267d3d447aa815df7a8ca8262893e2d6d45a3787a3d892ca92af7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a13bda1259d21e114bff4c31ddb8d56bb236c3e63812e940a23cc55ffa5b5a93",
+				"dweb:/ipfs/QmWigV2Gj58YyKae2zxhYh2SMvUiduKddAmEj5VaMt3LSe"
+			]
+		}
+	},
+	"version": 1
+}

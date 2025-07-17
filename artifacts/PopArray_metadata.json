@@ -7,20 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getData",
-				"outputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "",
-						"type": "uint256[]"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getNewData",
+				"name": "deleteLastData",
 				"outputs": [
 					{
 						"internalType": "uint256[]",
@@ -45,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ArrayContract.sol": "DynamicArray"
+			"contracts/ArrayContract.sol": "PopArray"
 		},
 		"evmVersion": "prague",
 		"libraries": {},

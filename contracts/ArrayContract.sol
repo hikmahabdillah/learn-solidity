@@ -48,3 +48,31 @@ contract ArrayLength{
         return (data.length);
     }
 }
+
+contract PushArray{
+    uint[] data;
+
+    function insertData() public returns(uint[] memory){
+        data = [1,2,3];
+
+        // menambahkan data baru kedalam array
+        data.push(4);
+        data.push(45);
+
+        return data;
+    }
+}
+
+contract PopArray{
+     uint[] data;
+
+    function deleteLastData() public returns(uint[] memory){
+        data = [1,2,3];
+
+        // menambahkan data baru kedalam array
+        data.pop();
+        data.pop();
+
+        return data;
+    }
+}
