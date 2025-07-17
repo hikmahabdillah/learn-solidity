@@ -11,14 +11,19 @@
 						"internalType": "address",
 						"name": "_address",
 						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_i",
+						"type": "uint256"
 					}
 				],
 				"name": "getData",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bool",
 						"name": "",
-						"type": "uint256"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -30,14 +35,19 @@
 						"internalType": "address",
 						"name": "",
 						"type": "address"
-					}
-				],
-				"name": "maMap",
-				"outputs": [
+					},
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"name": "nested",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -54,6 +64,11 @@
 						"internalType": "uint256",
 						"name": "_i",
 						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_boo",
+						"type": "bool"
 					}
 				],
 				"name": "setData",
@@ -75,7 +90,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Mapping.sol": "MappingContract"
+			"contracts/Mapping.sol": "NestedMapping"
 		},
 		"evmVersion": "prague",
 		"libraries": {},

@@ -12,3 +12,15 @@ contract MappingContract{
         return maMap[_address];
     }
 }
+
+contract NestedMapping{
+    mapping(address => mapping(uint => bool)) public nested;
+
+     function setData(address _address, uint _i, bool _boo) public{
+        nested[_address][_i] = _boo;
+    }
+
+    function getData(address _address, uint _i) public view returns(bool){
+        return nested[_address][_i];
+    }
+}
