@@ -4,21 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_value",
-						"type": "uint256"
-					}
-				],
-				"name": "setValue",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -32,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Inheritance.sol": "Parent"
+			"contracts/Inheritance.sol": "caller"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -47,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/Inheritance.sol": {
-			"keccak256": "0x3b1a3648bb16e325e18b37909c3c9187711a65563e67563b19601188ded17442",
+			"keccak256": "0xadee35f5c8a51dd44cc1f2f373734f372380172b37e20bf3d6c07fe65fd4f72f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://06b55114831fcefdf3827de93acee82e357d1d1e00a4765022245e5bbc7b83c1",
-				"dweb:/ipfs/QmUW6b24L1eihqHReNHWBR2oHWP5Tpnz1FZDKkLrq64uEb"
+				"bzz-raw://a905b6b15e357f5149b6d7476cdf6d3fa7c47646c078d896c1f5c92192a0134b",
+				"dweb:/ipfs/QmPVw4pCCLfVTxNJN4WY299dVEhuKH3dzHsoP2zH5cjLM2"
 			]
 		}
 	},

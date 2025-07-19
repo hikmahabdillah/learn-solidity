@@ -53,7 +53,7 @@ contract Child is Parent{
     }
 
     function getComputeResult() public{
-        result = compute(1,2);
+        result = compute(4,2);
     }
 
     function getResult() public view returns(uint){
