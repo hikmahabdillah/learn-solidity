@@ -7,13 +7,8 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "inherit",
+				"name": "getValue",
 				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
 					{
 						"internalType": "string",
 						"name": "",
@@ -42,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MultiInheritance.sol": "caller"
+			"contracts/HierarchicalInehritance.sol": "caller"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -56,12 +51,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/MultiInheritance.sol": {
-			"keccak256": "0x8a7c7db8e62a059113e442c163620e91189573d0fc76ec7b5517b3ea890d1af9",
+		"contracts/HierarchicalInehritance.sol": {
+			"keccak256": "0x60a663e571a52898946cf7ab3f29d2471ffcd44f15f617db5e0f24024fdf303a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d2357e9a2fa1a0f06cc1c3ddff897c479138317e26fe2d44b083b87f720573a4",
-				"dweb:/ipfs/Qmb5VHgeVGTYDQmPwtVsU3ipHnXwm1uGyknrGVQNrh9ibe"
+				"bzz-raw://d6d549abe3c388ded0d872f80177a19c00951f6e3fac007866864460eb482b0a",
+				"dweb:/ipfs/QmTXz2wv5vU1bWDzpAqxzDBn3Nijwp1rJiYfgyvYZkJehR"
 			]
 		}
 	},

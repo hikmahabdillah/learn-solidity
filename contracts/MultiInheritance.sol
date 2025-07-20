@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.6.0 <0.9.0; // versi 0.6.0 ke atas
 
-// multi level inheritance berarti sebuah kontrak bisa menjadi anak dan bisa juga sebagai induk
+// multi level inheritance berarti sebuah kontrak bisa menjadi child dan bisa juga sebagai induk
 contract ParentA{
     function getAValue() external pure returns(string memory){
         return "Contract A has called!";
