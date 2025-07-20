@@ -26,3 +26,4 @@ contract caller{
         return (B.getAValue(), C.getAValue());
     }
 }
+
