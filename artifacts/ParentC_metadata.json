@@ -7,25 +7,41 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "inherit",
+				"name": "getAValue",
 				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
 					{
 						"internalType": "string",
 						"name": "",
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBValue",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCValue",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -42,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MultiInheritance.sol": "caller"
+			"contracts/MultiInheritance.sol": "ParentC"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
