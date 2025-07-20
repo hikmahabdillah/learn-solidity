@@ -47,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/MultiLevelInheritance.sol": {
-			"keccak256": "0x3f8127e4e17bb1312c8fd3855a51ae2883f9175c12da5045e463d51d17ead0da",
+			"keccak256": "0xd06bcf07bd13a7cbe2059f6e191e339e34457fdacb62f78e7b332bc119cee4d6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bdf2cf249036cffeec02fb8a1e8c563203c58c83d0cc9e004cb784ce2ea04bc7",
-				"dweb:/ipfs/QmTRokYdHQZr6YYtVrREpRmAWHj8bkJxZXKHvXbpNkNV6F"
+				"bzz-raw://73d6caa1650d8db6f0b612f55acc4fdf6fdfaf84168430c32b8c1e75231dae01",
+				"dweb:/ipfs/QmRBr2uVM4NAaXnNH8S9LqM4RRqP2wdR7TSdhb5B3Q18rF"
 			]
 		}
 	},
