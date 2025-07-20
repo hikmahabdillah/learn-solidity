@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/Inheritance.sol": {
-			"keccak256": "0x3b1a3648bb16e325e18b37909c3c9187711a65563e67563b19601188ded17442",
+			"keccak256": "0x46211cdd9bcfaa83d53986b53091dbddee747a0fc96d38f317e23115e4fce637",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://06b55114831fcefdf3827de93acee82e357d1d1e00a4765022245e5bbc7b83c1",
-				"dweb:/ipfs/QmUW6b24L1eihqHReNHWBR2oHWP5Tpnz1FZDKkLrq64uEb"
+				"bzz-raw://9361428010843fee9a517bff7e3c1ac1ca0b2006393bef6acb3965b3112ea190",
+				"dweb:/ipfs/QmcKU69KAmELdjCAfg8AD4Y7HikKpDX7pG2skZUnxNm9zF"
 			]
 		}
 	},
